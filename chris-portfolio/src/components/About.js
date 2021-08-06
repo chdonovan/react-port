@@ -16,6 +16,7 @@ export default class About extends Component {
               <div className="nine columns main-col">
   
                  <h2>About Me</h2>
+                 <p>biufdoqwidhowihdowqihdoiwhdoqiwhd</p>
                 
   
                     <div className="row">
@@ -23,6 +24,8 @@ export default class About extends Component {
                     <div className="columns contact-details">
   
                     <h2>Contact Details</h2>
+                    <p>eowoidnoinoiwnoinfoinofinoifnoewinflkedjlqbciqekbclkwebc
+                    </p>
                     
                     </div>
                  </div>
