@@ -2,6 +2,7 @@ import React,{Component} from "react";
 import Header from "./components/Header";
 import About from "./components/About";
 import Porfolio from "./components/Portfolio";
+import ContactUs from "./components/Contact";
 
 class App extends Component {
   render(){
@@ -10,6 +11,7 @@ class App extends Component {
         <Header/>
         <About/>
         <Porfolio/>
+        <ContactUs/>
       </div>
     )
   }
