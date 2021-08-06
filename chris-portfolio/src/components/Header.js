@@ -16,6 +16,19 @@ export default class Header extends Component {
                             <li><a className="smoothscroll" href="#contact">Contact</a></li>
                         </ul>
                     </nav>
+                    <div className="row banner">
+                        <div className="banner-text">
+                        <h1 className="responsive-headline">I am full stack web-developer.</h1>
+                        <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I am full stack web-developer.
+                        </h3>
+                        
+                        
+                        </div>
+                    </div>
+
+
+
+                    
 
                     <p className="scrolldown">
                         <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
