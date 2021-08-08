@@ -91,10 +91,19 @@ ABOUT STYLES
 ///////////////////////////////////////////////////////////////////////////////////
 
 ///--------------------------------------------------------------------------------//   */
+
+
+
+#about .about-sec{
+   display: flex;
+   justify-content: space-evenly;
+
+}
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
    color: #fff;
    margin-bottom: 12px;
+   text-align: center;
 }
 #about p {
    line-height: 30px;
@@ -111,7 +120,7 @@ ABOUT STYLES
    width: 58.33333%;
    padding-top: 6px;
 }
-#about .main-col { padding-right: 5%; }
+
 #about .download .button {
    margin-top: 6px;
    background: #444;
@@ -121,21 +130,34 @@ ABOUT STYLES
     
 
 
+#about h1{
+   text-align: center;
+   color:white;
 
+}
 #about h2 {
+   width: 400px;
    font: 22px/30px 'opensans-bold', sans-serif;
    color: #fff;
    margin-bottom: 12px;
+   text-align: center;
 }
 #about p {
-   line-height: 30px;
+   text-align: left;
+   line-height: 50px;
    color: #7A7A7A;
+   
+}
+
+#about .contact-li{
+   text-align: left;
 }
 #about .profile-pic {
    position: relative;
    width: 275px;
    height: 400px;
    border-radius: 100%;
+   margin-bottom: 75px;
 }
 #about .contact-details { width: 41.66667%; }
 

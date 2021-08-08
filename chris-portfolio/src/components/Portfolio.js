@@ -4,11 +4,12 @@ export default class Porfolio extends Component {
         return(
             <section id="portfolio">
             <div className="row">
-                <div className="twelve columns collapsed">
-                <h1>Check Out Some of My Works.</h1>
+                
+                <h1>Check Out Some of My Work!</h1>
+                <p>here you will find some examples of my work. </p>
                 
                 </div>
-                </div>
+                
             
             </section>
         );
