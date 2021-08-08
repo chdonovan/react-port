@@ -178,25 +178,25 @@ Portfolio STYLES
     background: #ebeeee;
     padding-top: 90px;
     padding-bottom: 60px;
- }
- #portfolio h1 {
+}
+#portfolio h1 {
     font: 15px/24px 'opensans-semibold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
     margin-bottom: 48px;
     color: #95A3A3;
- }
- #portfolio .works-cards{
+}
+#portfolio .works-cards{
     text-align: center;
    display: flex;
    justify-content: space-evenly;
- }
+}
 
- #portfolio .workspic{
+#portfolio .workspic{
     height: 175px;
     width: 250px;
- }
+}
 
 
 
@@ -209,45 +209,57 @@ CONTACT STYLES
 ///--------------------------------------------------------------------------------//   */
 
 
- #contact {
+#contact {
+   
     background: #191919;
     padding-top: 96px;
     padding-bottom: 102px;
     color: #636363;
- }
- #contact .section-head { margin-bottom: 42px; }
+}
+#contact h1{
+   text-align: center;
+   color: white;
+   font-size: 50px;
+}
+#contact p{
+   text-align: center;
+}
+
+#contact .contact-sec{
+   margin: 50px;
+   margin-left: 175px;
+   text-align: center;
+}
  
- #contact a, #contact a:visited  { color: #11ABB0; }
- #contact a:hover, #contact a:focus { color: #fff; }
- 
- #contact h1 {
-    font: 18px/24px 'opensans-bold', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: #EBEEEE;
-    margin-bottom: 6px;
- }
- #contact h1 span { display: none; }
- #contact h1:before {
-    font-family: 'FontAwesome';
-    content: "\f0e0";
-     padding-right: 10px;
-     font-size: 72px;
-    line-height: 72px;
-    text-align: left;
-    float: left;
-    color: #ebeeee;
- }
- 
- #contact h4 {
-    font: 16px/24px 'opensans-bold', sans-serif;
-    color: #EBEEEE;
-    margin-bottom: 6px;
- }
- #contact p.lead {
-    font: 18px/36px 'opensans-light', sans-serif;
-    padding-right: 3%;
- }
- #contact .header-col { padding-top: 6px; }
- 
+#contact a, #contact a:visited  { color: #11ABB0; }
+#contact a:hover, #contact a:focus { color: #fff; }
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea{
+   display: inline-flex;
+   ;
+   justify-content: space-evenly;
+   width: 70%; 
+   padding: 12px; 
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin-top: 6px; 
+   margin-bottom: 16px; 
+   margin-left: 5px;
+   resize: vertical;
+}
+#contact .form{
+   display: flex;
+   justify-content: space-evenly;
+   width: 90%; 
+   padding: 12px; 
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin: 20px;
+   resize: ver
+}
  
