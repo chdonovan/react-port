@@ -187,6 +187,15 @@ Portfolio STYLES
     margin-bottom: 48px;
     color: #95A3A3;
  }
+ #portfolio .works-cards{
+   display: flex;
+   justify-content: space-evenly;
+ }
+
+ #portfolio .workspic{
+    height: 175px;
+    width: 250px;
+ }
 
 
 
