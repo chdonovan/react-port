@@ -18,8 +18,10 @@ export default class Header extends Component {
                     </nav>
                     <div className="row banner">
                         <div className="banner-text">
-                        <h1 className="responsive-headline">I am full stack web-developer.</h1>
-                        <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I am full stack web-developer.
+                        <h1 className="responsive-headline">Chris Donovan</h1>
+                        <h3 className="banner-text">I am full stack web-developer, 
+                        fluent in JavaScript, HTML, CSS,jQuery, Bootstrap, Node.js, MySQL, MongoDB,
+                         Express.js, React.js, and more. 
                         </h3>
                         
                         
