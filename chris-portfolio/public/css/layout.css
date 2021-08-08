@@ -188,6 +188,7 @@ Portfolio STYLES
     color: #95A3A3;
  }
  #portfolio .works-cards{
+    text-align: center;
    display: flex;
    justify-content: space-evenly;
  }
