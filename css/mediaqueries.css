@@ -1,11 +1,29 @@
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1400px) {
 
     /* header styles
    ------------------------------------------------------------------ */
    header .banner-text h1 {
-      font: 80px/1.1em 'opensans-bold', sans-serif;
+      font: 70px/1.1em 'opensans-bold', sans-serif;
       letter-spacing: -1px;
-      margin: 0 auto 12px auto;
+      margin: 50 auto 18px auto;
    }
+
+   #about .about-sec{
+   
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      width: 100%;
+      align-items: center;
+  
+   }
+
+   #portfolio .works-cards{
+      display: block;
+      text-align: center;
+
+     
+     justify-content: space-evenly;
+  }
 
 }
