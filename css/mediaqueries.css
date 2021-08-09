@@ -28,8 +28,8 @@
 
   img.resume-img{
    display: flex;
-   height: auto;
-   width: auto;
-}
+   height: fit-content;
+   width: fit-content;
+ }
 
 }
