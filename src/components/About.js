@@ -9,7 +9,7 @@ export default class About extends Component {
            <div className="about-sec">
   
            
-            <img className="profile-pic"  src="images/profile.jpg" alt="" />
+            <img className="profile-pic"  src="../../public/images/profile.jpg"alt="" />
             <h2>Me
             <p>I am a fullstack web-developer located in Austin, Texas. I am proficient in the MERN stack and more. I have extensive experience managing people and working in fast-paced, high pressure enviornments. In my spare time I enjoy pursuing my musical interests and spending time with family and friends.</p>
             </h2>
