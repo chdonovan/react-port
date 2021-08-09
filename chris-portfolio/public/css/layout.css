@@ -31,7 +31,7 @@ header {
     left: 0;
     top: 0;
 }
-.opaque { background-color: #333; }
+
 
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
    display: inline;
@@ -58,12 +58,8 @@ ul#nav li a {
        text-align: left;
        color: rgb(14, 1, 1);
     
-        -webkit-transition: color .2s ease-in-out;
-        -moz-transition: color .2s ease-in-out;
-        -o-transition: color .2s ease-in-out;
-        -ms-transition: color .2s ease-in-out;
-        transition: color .2s ease-in-out;
-    }
+        
+}
     
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #e65e09; }
@@ -71,7 +67,7 @@ ul#nav li.current a { color: #e65e09; }
 header .banner-text { width: 100%; }
 header .banner-text h1 {
    
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   font: 140px/1.1em 'opensans-bold', sans-serif;
    color: rgb(216, 135, 81); 
    letter-spacing: -2px;
    margin: 50 auto 18px auto;
@@ -116,15 +112,7 @@ ABOUT STYLES
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
-#about .download {
-   width: 58.33333%;
-   padding-top: 6px;
-}
 
-#about .download .button {
-   margin-top: 6px;
-   background: #444;
-}
 
 
     
@@ -133,6 +121,7 @@ ABOUT STYLES
 #about h1{
    text-align: center;
    color:white;
+   font-size: 50px;
 
 }
 #about h2 {
@@ -180,12 +169,13 @@ Portfolio STYLES
     padding-bottom: 60px;
 }
 #portfolio h1 {
-    font: 15px/24px 'opensans-semibold', sans-serif;
+    font: 50px;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
     margin-bottom: 48px;
-    color: #95A3A3;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #portfolio .works-cards{
     text-align: center;
@@ -262,4 +252,27 @@ input[type=text], select, textarea{
    margin: 20px;
    resize: ver
 }
- 
+
+
+/*-----------------------------------------------------------------------------------
+RESUME STYLES
+////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////
+
+///--------------------------------------------------------------------------------//   */
+
+h1.resume-t{
+   text-align: center;
+   color: white;
+   font-size: 50px;
+}
+img.resume-img{
+   display: flex;
+}
+.resume-form{
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+   color:ivory;
+}
+
