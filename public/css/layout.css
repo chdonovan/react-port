@@ -268,6 +268,7 @@ h1.resume-t{
 }
 img.resume-img{
    display: flex;
+   height: fit-content;
 }
 .resume-form{
    display: flex;
