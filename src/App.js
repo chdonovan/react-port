@@ -4,6 +4,7 @@ import About from "./components/About";
 import Porfolio from "./components/Portfolio";
 import ContactUs from "./components/Contact";
 import Resume from "./components/Resume";
+import Footer from "./components/Footer";
 
 class App extends Component {
   render(){
@@ -14,6 +15,7 @@ class App extends Component {
         <Porfolio/>
         <ContactUs/>
         <Resume/>
+        <Footer/>
       </div>
     )
   }

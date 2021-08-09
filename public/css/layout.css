@@ -276,3 +276,37 @@ img.resume-img{
    color:ivory;
 }
 
+
+/*-----------------------------------------------------------------------------------
+FOOTER STYLES
+////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////
+
+///--------------------------------------------------------------------------------//   */
+
+footer {
+   padding-top: 48px;
+   margin-bottom: 48px;
+   color: #303030;
+   font-size: 14px;
+   text-align: center;
+   position: relative;
+}
+
+
+.social-row{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.socialpic{
+   height: 100px;
+   width: 100px;
+}
+
+.social-card{
+   color: #ebeeee;
+   font-size: 20px;
+}
+
+
