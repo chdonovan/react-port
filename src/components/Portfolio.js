@@ -23,9 +23,9 @@ export default class Porfolio extends Component {
                         
                     </div>
                     <div className="card">
-                        <h4>README generator</h4>
-                        <a href ="https://github.com/chdonovan/readme-gen" target="_blank"
-                        ><img className="workspic" src="images/readmescrn.png"></img></a>
+                        <h4>myJobber</h4>
+                        <a href ="https://github.com/chdonovan/Jobs-posting" target="_blank"
+                        ><img className="workspic" src="images/myJobber.png"></img></a>
                         
                     </div>
                     <div className="card">
